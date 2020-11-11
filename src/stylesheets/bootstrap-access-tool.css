@@ -1,0 +1,87 @@
+/*BOOTSTRAP ACCESS TOOL VERSION 0.07*/
+
+/*
+    These background and font choices are intended to fix the bootstrap and web accessiblity problem and to change the color contrast
+    of styles to 8.0 contrast ration when being used.
+*/
+
+
+.font-acc-light{color:#ffffff;} /*Used in combination with acc colors to provide high contrast*/
+.font-acc-dark{color:#000000;}  /*Used in combination with acc colors to provide high contrast*/
+
+
+/* ! This is the true pallete supports better color blindness contrasts as well as better base contrast for low vision
+ ! This is the intended Pallete for more accessible web design */
+.color-acc-black{background-color:#131212; color:#ffffff;}             /*Passed Constrast: 18.70*/
+.color-acc-dark-gray{background-color:#343a40; color:#ffffff;}         /*Passed Constrast: 11.51 */
+.color-acc-light-gray{background-color:#C5C4C4; color:#000000;}        /*Passed Constrast: 12.07 */
+.color-acc-blue{background-color:#0037B7; color:#ffffff;}              /*Passed Constrast: 9.42*/
+.color-acc-sky{background-color:#50B3FF; color:#000000;}               /*Passed Constrast: 9.23 */
+.color-acc-green{background-color:#4DFF00; color:#000000;}             /*Passed Constrast: 15.62*/
+.color-acc-red{background-color:#A00202; color:#ffffff;}               /*Passed Constrast: 8.39*/
+.color-acc-orange{background-color: #FD8B00; color:#000000;}           /*Passed Constrast: 8.87 */
+.color-acc-amber{background-color:#FFC107; color:#000000;}             /*Passed Constrast: 12.88*/
+.color-acc-beige{background-color:#DFDA8F; color:#000000;}             /*Passed Constrast: 14.56*/
+.color-acc-sand{background-color: #FFF2C5; color:#000000;}             /*Passed Constrast: 18.76*/
+.color-acc-white{background-color: #F8F9FA; color:#000000;}            /*Passed Constrast: 19.92*/
+
+/* ! These palletes show a mathematical approximation of how the true pallete would look on your website in some cases if you are color blind.
+! These Palletes are NOT intended to be used as the main pallete but are here to check the contrast and color set for low vision color blindness.*/
+.color-acc-prot-black{background-color: #1a1919; color:#ffffff;}             /*Passed Contrast: 17.54*/
+.color-acc-prot-dark-gray{background-color: #3b3b41; color:#ffffff;}         /*Passed Contrast: 11.12*/
+.color-acc-prot-light-gray{background-color: #c6c2c2; color:#000000;}        /*Passed Contrast: 11.90*/ 
+.color-acc-prot-blue{background-color: #004690; color:#ffffff;}              /*Passed Contrast: 9.22*/
+.color-acc-prot-sky{background-color:#8fa8f8; color:#000000;}                /*Passed Contrast:  9.12*/
+.color-acc-prot-green{background-color: #fbde00; color:#000000;}             /*Passed Contrast: 15.55 */
+.color-acc-prot-red{background-color: #594f15 ; color:#ffffff;}              /*Passed Contrast: 8.22*/
+.color-acc-prot-orange{background-color: #bda713; color:#000000;}            /*Passed Contrast: 8.70*/
+.color-acc-prot-amber{background-color:#e4ca14; color: #000000;}             /*Passed Contrast: 12.76*/
+.color-acc-prot-beige{background-color: #e9d68c; color: #000000;}            /*Passed Contrast: 14.46*/
+.color-acc-prot-sand{background-color: #fff1ca; color:#000000;}              /*Passed Contrast: 18.69*/
+.color-acc-prot-white{background-color:#fdf7f9 ; color: #000000;}            /*Passed Contrast: 19.85*/
+
+.color-acc-deut-black{background-color:#1c1819; color:#ffffff;}             /*Passed Contrast:17.59 */
+.color-acc-deut-dark-gray{background-color: #3f3a43; color:#ffffff;}        /*Passed Contrast: 11.07*/
+.color-acc-deut-light-gray{background-color: #d6bdc5; color:#000000;}       /*Passed Contrast: 11.94*/
+.color-acc-deut-blue{background-color:  #004a7b ; color:#ffffff;}           /*Passed Contrast:9.27 */
+.color-acc-deut-sky{background-color: #80aaff; color:#000000;}              /*Passed Contrast: 9.11*/
+.color-acc-deut-green{background-color: #ffd7a0; color:#000000;}            /*Passed Contrast:15.48 */
+.color-acc-deut-red{background-color: #644b00; color:#ffffff}               /*Passed Contrast: 8.24*/
+.color-acc-deut-orange{background-color: #d59e00; color:#000000;}           /*Passed Contrast:8.72 */
+.color-acc-deut-amber{background-color: #ffbf32; color:#000000;}            /*Passed Contrast:12.75 */
+.color-acc-deut-beige{background-color: #ffcd97; color:#000000;}            /*Passed Contrast:14.43 */
+.color-acc-deut-sand{background-color: #ffefe5 ; color:#000000;}            /*Passed Contrast: 18.73*/
+.color-acc-deut-white{background-color: #fff7fa; color:#000000;}            /*Passed Contrast: 19.94*/
+
+.color-acc-trit-black{background-color: #1a191b; color:#ffffff;}        /*Passed Contrast: 17.52*/
+.color-acc-trit-dark-gray{background-color: #373d41; color:#ffffff;}    /*Passed Contrast:11.02 */
+.color-acc-trit-light-gray{background-color: #c6c1d0; color:#000000;}   /*Passed Contrast: 11.94*/
+.color-acc-trit-blue{background-color:  #005054; color:#ffffff;}        /*Passed Contrast: 9.23 */
+.color-acc-trit-sky{background-color: #21bccb; color:#000000;}          /*Passed Contrast:9.12 */
+.color-acc-trit-green{background-color:#89ecff ; color:#000000;}        /*Passed Contrast:15.51 */
+.color-acc-trit-red{background-color: #9e0e00; color:#ffffff;}          /*Passed Contrast: 8.34*/
+.color-acc-trit-orange{background-color: #ff828a; color: #000000;}      /*Passed Contrast: 8.81*/
+.color-acc-trit-amber{background-color: #ffb6c1; color: #000000;}       /*Passed Contrast:12.71 */
+.color-acc-trit-beige{background-color: #e9cfdf; color: #000000;}       /*Passed Contrast: 14.46*/
+.color-acc-trit-sand{background-color: #ffedf8; color: #000000;}        /*Passed Contrast: 18.72*/
+.color-acc-trit-white{background-color:  #f9f8ff; color:#000000;}       /*Passed Contrast:19.90 */
+
+
+/* ! Additional font and button sizes for websites*/
+.btn-huge{
+    padding: 1.5rem 3rem;
+    font-size: 1.5rem;
+}
+.btn-monster{
+    padding: 2rem 6rem;
+    font-size: 2rem; 
+}
+
+.test-div{
+    width: 10rem;
+    height: 10rem;
+}
+
+.font-lg{
+    font-size: large;
+}

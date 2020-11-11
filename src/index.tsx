@@ -3,10 +3,26 @@ import ReactDOM from "react-dom";
 import "./stylesheets/index.css";
 import App from "./components/App";
 import reportWebVitals from "./reportWebVitals";
+import "./stylesheets/bootstrap-access-tool.css"
+import "./stylesheets/bootstrap.css"
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <App
+      films={[]}
+      locations={[]}
+      filmTitle={""}
+      filmDescription={""}
+      filmProducer={""}
+      filmReleaseDate={""}
+      filmsLoaded={false}
+      locationName={""}
+      locationClimate={""}
+      locationWaterTemp={""}
+      locationTerrain={""}
+      locationsLoaded={false}
+      start={true}
+    />
   </React.StrictMode>,
   document.getElementById("root")
 );
